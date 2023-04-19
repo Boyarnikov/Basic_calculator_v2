@@ -1,5 +1,5 @@
 import calculator
 
 if __name__ == '__main__':
-    print(__name__)
-    print(calculator)
+    a, b = map(int, input().split())
+    print(calculator.add(a, b))
